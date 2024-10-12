@@ -1,0 +1,153 @@
+
+body {
+    background-color: #e2e2e2; /* фон сторінки */
+    font-size: 4vw;
+}
+
+
+h1 { /* Шрифт для заголовків */
+    font-family: "Poiret One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 5;
+}
+
+h2 { /* Шрифт для тексту під заголовками */
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-optical-sizing: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+p { /* Шрифт яким написана дата та час весілля */
+    font-family: "Poiret One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-radius: 5;
+    /* font-size: 1.6vw; */
+}
+
+.container { /* основний контейнер з інформацією та основним фото */
+    width: min(100% - 30px, 840px);
+    margin-inline: auto;
+    
+}
+
+.hello-text { /* текст привітання який гості бачать одразу під фото */
+    margin-bottom: 40px;
+}
+
+.time-place-text {
+    margin-bottom: 40px;
+}
+
+.image1 {
+    width: 100%;
+    margin-bottom: 40px;
+    max-width: 840px;
+    display: block;
+    text-align: center; 
+}
+
+.gift {
+    margin-bottom: 40px;
+}
+
+.timing {
+    margin-bottom: 40px;
+}
+
+.timing table {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 3vw; */
+    text-align: center; 
+    width: 100%;
+}
+
+th, td {
+    font-weight: normal;
+    padding: 0;
+}
+
+.dress-code {
+
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+
+.reset {
+    top: 5px;
+    padding: 0px 10px;
+    position: relative;
+}
+
+
+.container2 {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px; /* Ширина контейнера, може бути змінена відповідно до розмірів кіл і відступів */
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.circle1 {
+    background-color: #dbcfc3;
+}
+.circle2 {
+    background-color: #c7b9ae;
+}
+.circle3 {
+    background-color: #dacdcb;
+    /* background-color: #d4b2a7; */
+}
+.circle4 {
+    background-color: #c7c7c7;
+}
+.circle5 {
+    background-color: #0f0f0f;
+}
+
+.number {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.imageLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
